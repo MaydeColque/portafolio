@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/estilo.css">
+  <link rel="stylesheet" href="estilos/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,500;0,700;1,100;1,200;1,400&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1779cbeca6.js" crossorigin="anonymous"></script>
+  <title>Mayde Colque | Portafolio</title>
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="icon-volver-arriba-container">
+        <a href="#Inicio" ><i class="fa-solid fa-seedling fa-lg"></i></a>
+      </div>
+      <div class="nav-bar__container">
+        <ul class="nav-bar__items">
+          <li><a href="#SobreMi">Sobre Mí</a></li>
+          <li><a href="#Formacion">Formación</a></li>
+          <li><a href="#Proyectos">Proyectos</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <article>
+    <section class="inicio center" id="Inicio">
+      <div class="foto-container center">
+        <img class="foto" src="imagenes/Fotos/7.jpeg" alt="Foto Mayde Colque">
+      </div>
+      <div class="inicio__titulo">
+        <p>Hola! Soy</p>
+        <h1 ><a href="https://www.linkedin.com/in/mayde-colque/" target="_blank">Mayde Colque</a>.</h1>
+      </div>
+      <p class="inicio__text">¡Bienvenido/a a mi espacio! 🌱<br> Aquí comparto información relevante sobre mi trayecto de formación como <i>programadora</i> <b>:)</b></p>
+    </section>
+    <section class="sobreMi" id="SobreMi">
+      <h2 class="sobreMi__titulo">Sobre Mí</h2>
+      <div class="sobreMi__items-container center">
+        <div class="sobreMi__items">
+          <div class="icon-container icon-white-green center">
+            <i class="fa-solid fa-person-hiking"></i>
+          </div>
+          <p>
+            Aprendiendo hace 3 años de manera autodidacta con vídeos, blogs, foros, ejercicios de páginas web. 
+          </p>
+        </div>
+        <div class="sobreMi__items">
+          <div class="icon-container icon-white-green center">
+            <i class="fa-solid fa-ranking-star"></i>
+          </div>
+          <p>
+            Comprendí que la mejor forma de aprender es con la ayuda de buenos Mentores.
+          </p>
+        </div>
+        <div class="sobreMi__items">
+          <div class="icon-container icon-white-green center">
+            <i class="fa-solid fa-people-carry-box"></i>
+          </div>
+          <p>
+            Creo que la base del aprendizaje es construyendo junto a otros.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="habilidades">
+      <!-- <code>
+        <pre>
+          var hola = 3;
+        </pre>
+      </code> -->
+      <h2 class="habilidades__titulo">Habilidades</h2>
+      <div class="habilidad-container">
+        <h3 class="habilidad__subtitulo">Aplicaciones de Escritorio</h3>
+      <div class="icons__container center">
+        <div class="icon violeta center">
+          <i class="fa-solid fa-code"></i>
+          <p class="icon__text">C#</p>
+          <div class="pop-text center">
+            <p>Paradigma: POO. <br> Patrón de diseño: Modelo - Vista - Controlador(MVC)</p>
+          </div>
+        </div>
+        <div class="icon amarillo center">
+          <i class="fa-solid fa-database"></i>
+          <p class="icon__text">SQL Server</p>
+          <div class="pop-text center">
+            <p>Utilizado en operaciones CRUD para gestionar datos en Bases de Datos.</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+      <div class="habilidad-container">
+        <h3 class="habilidad__subtitulo">Páginas Web Básicas</h3>
+      <div class="icons__container center">
+        <div class="icon naranja center">
+          <i class="fa-brands fa-html5"></i>
+          <p class="icon__text">HTML</p>
+          <div class="pop-text center">
+            <p>HTML semántico para la estructuración y uso de la Metodología BEM.</p>
+          </div>
+        </div>
+        <div class="icon azul center">
+          <i class="fa-brands fa-css3-alt"></i>
+          <p class="icon__text">CSS</p>
+          <div class="pop-text center">
+            <p>Para la integración de estilos y animaciones con un enfoque Responsive Design.</p>
+          </div>
+        </div>
+        <div class="icon amarillo center">
+          <i class="fa-brands fa-js"></i>
+          <p class="icon__text">Javascript</p>
+          <div class="pop-text center">
+            <p>En un nivel básico usado para el manejo del DOM con funciones simples.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="habilidad-container">
+        <h3 class="habilidad__subtitulo">Ejercitación de Lógica</h3>
+      <div class="icons__container center">
+        <div class="icon violeta center">
+          <i class="fa-solid fa-diagram-project"></i>
+          <p class="icon__text">Diagramas de Flujo</p>
+          <div class="pop-text center">
+            <p>Comprensión del flujo de datos de un programa y cómo desarrollarlo correctamente.</p>
+          </div>
+        </div>
+        <div class="icon azul center">
+          <i class="fa-solid fa-code"></i>
+          <p class="icon__text">C</p>
+          <div class="pop-text">
+            <p>Usado en proyectos iniciales de la Tecnicatura con un enfoque de programación funcional.</p>
+          </div>
+        </div>
+        <div class="icon azul center">
+          <i class="fa-solid fa-code"></i>
+          <p class="icon__text">C++</p>
+          <div class="pop-text center">
+            <p>Usado como complementación de lo aprendido con Diagramas y en el curso de ingreso.</p>
+          </div>
+        </div>
+        <div class="icon azul center">
+          <i class="fa-brands fa-python"></i>
+          <p class="icon__text">Python</p>
+          <div class="pop-text center">
+            <p>Aprendido como introducción a la programación con el desarrollo de juegos simples en consola.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="habilidad-container">
+        <h3 class="habilidad__subtitulo">Tecnologías Complementarias</h3>
+      <div class="icons__container center">
+        <div class="icon verde center">
+          <i class="fa-solid fa-terminal"></i>
+          <p class="icon__text">Terminal</p>
+          <div class="pop-text center">
+            <p>Utilizado para explorar, crear o eliminar archivos y directorios con la ejecución de comandos básicos.</p>
+          </div>
+        </div>
+        <div class="icon center">
+          <i class="fa-brands fa-github"></i>
+          <p class="icon__text">Git Hub</p>
+          <div class="pop-text center">
+            <p>Utilizado para compartir proyectos y trabajar con grupos.</p>
+          </div>
+          </div>
+      </div>  
+      </div>
+    </section>
+    <!--  FORMACION -->
+    <section class="formacion" id="Formacion">
+      <div class="formacion__tarjetas-container">
+        <h2 class="formacion__titulo">Formación</h2>
+
+        <div class="tarjeta-container">
+          <div class="tarjeta__icon-container">
+            <img src="https://yt3.ggpht.com/ytc/AMLnZu_lT2NZY6Xi_ELnFDwVy4NoMvfrDvI22YJOWfSh=s900-c-k-c0x00ffffff-no-rj" alt="Maxi Programa">
+          </div>
+          <div class="tarjeta__textos">
+            <h3 class="tarjeta-titulo">
+              Curso Nivel 3 con <a href="https://www.linkedin.com/in/msarfernandez/">Maximiliano Sar Fernández</a> docente en UTN-FRGP.
+            </h3>
+            <h4 class="tarjeta-subtitulo">
+              Desarrollo de aplicaciones Web con C# y el Framework .NET. Fundamentos de la Web, su arquitectura. Y conocimientos introductorios en: HTML, CSS y JS.
+            </h4>
+            <p class="tarjeta-fecha">Octubre 2023 - En Curso</p>
+            <a href="https://drive.google.com/file/d/16sTkD0qaHWPNmcjN9LqRN0fUG2PsitXz/view" class="button-style" target="_blank">Ver Contenido del Curso <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+          </div>
+        </div>
+          
+        <div class="tarjeta-container">
+          <div class="tarjeta__icon-container">
+            <img src="https://yt3.ggpht.com/ytc/AKedOLQSPwYMeksET4mhka6QOR2YFWQ_qdUwn-0IE2kp=s900-c-k-c0x00ffffff-no-rj" alt="UTN-Avellaneda">
+          </div>
+          <div class="tarjeta__textos">
+            <h3 class="tarjeta-titulo">
+              Técnico Universitario en Sistemas Informáticos en el Centro Universitario De Innovación, con el respaldo de La Universidad Tecnológica Nacional - Avellaneda.
+            </h3>
+            <h4 class="tarjeta-subtitulo">
+              Desarrollo y diseño de Sistemas Informáticos.
+            </h4>
+            <p class="tarjeta-fecha">2023 - En curso</p>
+            <a href="https://www.cudi.ar/oferta-academica/area-informatica-y-tecnologia/tecnicatura-universitaria-en-sistemas-informaticos/" class="button-style" target="_blank">Ver Plan de Estudios <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+          </div>
+        </div>
+        
+        <div class="tarjeta-container">
+          <div class="tarjeta__icon-container">
+            <img src="https://yt3.ggpht.com/ytc/AMLnZu_lT2NZY6Xi_ELnFDwVy4NoMvfrDvI22YJOWfSh=s900-c-k-c0x00ffffff-no-rj" alt="Maxi Programa">
+          </div>
+          <div class="tarjeta__textos">
+            <h3 class="tarjeta-titulo">
+              Curso Nivel 2 con <a href="https://www.linkedin.com/in/msarfernandez/">Maximiliano Sar Fernández</a> docente en UTN-FRGP.
+            </h3>
+            <h4 class="tarjeta-subtitulo">
+              Programación Orientada a Objetos (POO) con C# utilizando el Framework .Net. Desarrollo aplicaciones de escritorio con conexiones a Bases de Datos con SQLServer.
+            </h4>
+            <p class="tarjeta-fecha">Diciembre 2022 - Agosto 2023</p>
+            <a href="https://drive.google.com/file/d/1It68wtz-WqlGzKiWY9vwbI_0GgqfJew9/view" class="button-style" target="_blank">Ver Contenido del Curso <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+          </div>
+        </div>
+
+        <div class="tarjeta-container">
+          <div class="tarjeta__icon-container">
+            <img src="https://jonmircha.com/img/jonmircha.jpg" alt="Jonathan MirCha">
+          </div>
+          <div class="tarjeta__textos">
+            <h3 class="tarjeta-titulo">
+              Básicos de la Web: Fundamentos de Git y GitHub - <a href="https://www.linkedin.com/in/jonmircha/">Jonathan MirCha</a>
+            </h3>
+            <h4 class="tarjeta-subtitulo">
+              Herramientas para versionar, compartir y mantener código.
+            </h4>
+            <p class="tarjeta-fecha">Junio 2022 - Noviembre 2022</p>
+            <a href="https://jonmircha.com/cursos" class="button-style" target="_blank">Ver Cursos <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+          </div>
+        </div>
+
+        <div class="tarjeta-container">
+          <div class="tarjeta__icon-container">
+            <img src="https://jonmircha.com/img/jonmircha.jpg" alt="Jonathan MirCha">
+          </div>
+          <div class="tarjeta__textos">
+            <h3 class="tarjeta-titulo">
+              Básicos de la Web: Manejo de la Terminal de Comandos- <a href="https://www.linkedin.com/in/jonmircha/">Jonathan MirCha</a>
+            </h3>
+            <h4 class="tarjeta-subtitulo">
+              Comandos básicos para trabajar con la línea de comandos de una computadora.
+            </h4>
+            <p class="tarjeta-fecha">Febrero 2022 - Marzo 2022</p>
+            <a href="https://jonmircha.com/cursos" class="button-style" target="_blank">Ver Cursos <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+          </div>
+        </div>
+
+        <div class="tarjeta-container">
+          <div class="tarjeta__icon-container">
+            <img src="https://yt3.ggpht.com/ytc/AMLnZu_lT2NZY6Xi_ELnFDwVy4NoMvfrDvI22YJOWfSh=s900-c-k-c0x00ffffff-no-rj" alt="Maxi Programa">
+          </div>
+          <div class="tarjeta__textos">
+            <h3 class="tarjeta-titulo">
+              Curso Nivel 1 con <a href="https://www.linkedin.com/in/msarfernandez/">Maximiliano Sar Fernández</a> docente en UTN-FRGP.
+            </h3>
+            <h4 class="tarjeta-subtitulo">
+              Fundamentos de la Programación.
+            </h4>
+            <p class="tarjeta-fecha">Enero 2022 - Marzo 2022</p>
+            <a href="https://youtube.com/playlist?list=PLQRFzsIQFmxrqL5ViA0k3rsR5H0oNKYxE&si=h03PYk8EJxOodiTl" class="button-style" target="_blank">Ver PlayList de las Clases <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+          </div>
+        </div>
+
+        <div class="tarjeta-container">
+          <div class="tarjeta__icon-container">
+            <img src="https://i.playboard.app/p/a7ddf856d2466cbca0956c4ddf1647e7/default.jpg" alt="Soy Dalto">
+          </div>
+          <div class="tarjeta__textos">
+            <h3 class="tarjeta-titulo">
+              Desarrollo Web: HTML, CSS y Javascript - <a href="https://www.linkedin.com/in/soydalto/">Soy Dalto</a>.
+            </h3>
+            <h4 class="tarjeta-subtitulo">
+              Estructura de una página web, definición de estilos y animaciones e interactividad con Javascript.
+            </h4>
+            <p class="tarjeta-fecha">Junio 2020 - Abril 2021</p>
+            <a href="https://youtube.com/playlist?list=PLvt6HAAMcLr3M647uubjtqUMxhchvBS85&si=L7Looi0CLSPSG1lC" class="button-style" target="_blank">Ver PlayList de los Cursos <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+          </div>
+        </div>
+
+        <div class="tarjeta-container">
+          <div class="tarjeta__icon-container">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.kULyY5FeYQ_fcyaDWPXxIwHaHa&pid=Api&P=0&h=180" alt="UNLaM">
+          </div>
+          <div class="tarjeta__textos">
+            <h3 class="tarjeta-titulo">
+              Analista en Relaciones Públicas en la Universidad Nacional de La Matanza.
+            </h3>
+            <h4 class="tarjeta-subtitulo">
+              Relaciones Públicas.
+            </h4>
+            <p class="tarjeta-fecha">2018-2021</p>
+          </div>
+        </div>
+    </section>
+<!-- PROYECTOS -->
+    <section class="proyectos" id="Proyectos">
+      <h2 class="proyectos__Titulo">Proyectos</h2>
+
+      <h3 class="proyectos__Subtitulo">Aplicaciones de Escritorio</h3>
+<!-- Tarjetas Aplicaciones -->
+      <div class="proyectos__container-tarjetas">
+        <div class="proyecto__tarjeta">
+          <div class="tarjeta__img">
+            <img src="imagenes/App-GestionArticulos/VentanaPrincipal.PNG" alt="Aplicación Gestión de Articulos.">
+            <div class="proyecto__tarjeta__texto-hover">
+              <h4>Proyecto Final - Curso Nivel 2 | Maxi Programa</h3>
+              <p>
+                ¿Qué puede hacer?
+              </p>
+              <ul>
+                <li>Ingreso de artículos nuevos.</li>
+                <li>Modificación de datos.</li>
+                <li>Muestra en detalle de la información disponible de un artículo.</li>
+                <li>Elimina Artículos.</li>
+                <li>Papelera.</li>
+                <li>Busca.</li>
+                <li>Filtra.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="proyecto-tarjeta__textos">
+            <h3>Gestión de Artículos</h3>
+            <p class="proyecto-tarjeta__textos-Tecnologias">.Net FrameWork | C# | SQLServer</p>
+            <a href="https://github.com/MaydeColque/TrabajoFinalNivel2" class="link tooltip" target="_blank"><i class="fa-brands fa-github"></i><span class="tooltip__text">Ver Repositorio</span></a>
+          </div>
+        </div>
+        <div class="proyecto__tarjeta tarjeta-pokedex">
+          <div class="tarjeta__img">
+            <img src="imagenes/App-Pokemon/pantalla-principal.PNG" alt="Aplicación Pokédex">
+            <div class="proyecto__tarjeta__texto-hover">
+              <h4>Proyecto de Práctica previo Proyecto Final - Curso Nivel 2 | Maxi Programa</h3>
+              <p>
+                ¿Qué puede hacer?
+              </p>
+              <ul>
+                <li>Ingreso de nuevos pokémon.</li>
+                <li>Modificación de datos.</li>
+                <li>Permite visualizar la información almacenada de un pokémon.</li>
+                <li>Busca.</li>
+                <li>Permite ir al sitio web oficial para encontrar más información acerca de cada pokémon seleccionado.</li>
+                <li>Elimina.</li>
+                <li>Papelera.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="proyecto-tarjeta__textos">
+            <h3>Pokédex</h3>
+            <p class="proyecto-tarjeta__textos-Tecnologias">.Net FrameWork | C#</p>
+            <a href="https://github.com/MaydeColque/Pokedex-Proyecto" class="link tooltip" target="_blank"><i class="fa-brands fa-github"></i> <span class="tooltip__text">Ver Repositorio</span></a>
+          </div>
+        </div>
+      </div>
+<!-- Prácticas con CSS y HTML -->
+      <h2 class="proyectos__Subtitulo">Prácticas con CSS y HTML</h2>
+      <div class="proyectos__container-tarjetas">
+        <div class="proyecto__tarjetas-presentacion">
+          <div class="proyecto__tarjeta">
+            <div class="tarjeta__img">
+              <img src="imagenes/Practicas con css/TarjetasPresentacion1.PNG" alt="Tarjeta de Contacto con CSS">
+              <div class="proyecto__tarjeta__texto-hover">
+                <h4>Iniciativa Propia</h4>
+                <p> Objetivo: Mejorar mis habilidades en CSS.</p>
+                <ul>
+                  <li>
+                    Manejo de elementos.
+                  </li>
+                  <li>
+                    posiciones.
+                  </li>
+                  <li>
+                    integración de nuevas tipografías
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="proyecto-tarjeta__textos">
+              <h3>Tarjeta de Contacto</h3>
+              <p class="proyecto-tarjeta__textos-Tecnologias">HTML | CSS</p>
+            </div>
+          </div>
+  
+          <div class="proyecto__tarjeta">
+            <div class="tarjeta__img">
+              <img src="imagenes/Practicas con css/TarjetasPresentacion2.PNG" alt="Tarjeta de Contacto con CSS">
+              <div class="proyecto__tarjeta__texto-hover">
+                <h4>Iniciativa Propia</h4>
+                <p> Objetivo: Mejorar mis habilidades en CSS.</p>
+                <ul>
+                  <li>
+                    Manejo de elementos.
+                  </li>
+                  <li>
+                    posiciones.
+                  </li>
+                  <li>
+                    integración de nuevas tipografías
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="proyecto-tarjeta__textos">
+              <h3>Tarjeta de Contacto</h3>
+              <p class="proyecto-tarjeta__textos-Tecnologias">HTML | CSS</p>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto__tarjeta">
+          <div class="tarjeta__img">
+            <img src="imagenes/Practicas con css/PaginaDePresentacionBasica.PNG" alt="Tarjeta de Contacto con CSS">
+            <div class="proyecto__tarjeta__texto-hover">
+              <h4>Iniciativa Propia - Primer Proyecto</h3>
+              <p>
+                ¿Objetivo? <br>
+                Práctica estructuración de una página con HTML y diseño con CSS.<br>
+                
+              </p>
+            </div>
+          </div>
+          <div class="proyecto-tarjeta__textos">
+            <h3>Landing Page de un PodCast</h3>
+            <p class="proyecto-tarjeta__textos-Tecnologias">HTML | CSS</p>
+          </div>
+        </div>
+        <div class="proyecto__tarjeta proyecto__tarjeta--heightMin">
+          <div class="tarjeta__img">
+            <img src="imagenes/Practicas con css/PracticaGaleriaEnPaginaWeb-Grid.PNG" alt="Galería de Imagenés con Grid">
+            <div class="proyecto__tarjeta__texto-hover">
+              <h4>Proyecto Práctica con GRID - Curso de CSS | Soy Dalto</h3>
+              <p>
+                Un proyecto simple para aprender a dominar el manejo de elementos con GRID.<br>
+                
+              </p>
+            </div>
+          </div>
+          <div class="proyecto-tarjeta__textos">
+            <h3>Galería de Imágenes con Grid</h3>
+            <p class="proyecto-tarjeta__textos-Tecnologias">HTML | CSS</p>
+          </div>
+        </div>
+        <div class="proyecto__tarjeta proyecto__tarjeta--heightMin">
+          <div class="tarjeta__img">
+            <img src="imagenes/Practicas con css/PracticaFlexBox.PNG" alt="Caras de un dado con FlexBox">
+            <div class="proyecto__tarjeta__texto-hover">
+              <h4>Práctica - Curso de CSS | EDTEAM</h3>
+              <p>
+                ¿Objetivo? <br>
+                Comprender el funcionamiento de Flexbox manejando elementos hijos.
+              </p>
+            </div>
+          </div>
+          <div class="proyecto-tarjeta__textos">
+            <h3>Caras de un Dado - FlexBox</h3>
+            <p class="proyecto-tarjeta__textos-Tecnologias">HTML | CSS</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </article>
+  <footer>
+    <section class="contacto" id="Contacto">
+      <div class="redes-container">
+        <div>
+          <ul class="redes__items-container">
+            <li class="redes__item"><a href="https://www.linkedin.com/in/mayde-colque/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li class="redes__item"><a href="mailto:maydecolque1@gmail.com?" target="_blank"><i class="fa-regular fa-envelope"></i></a></li>
+            <li class="redes__item"><a href="https://github.com/MaydeColque" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="redes__titulo">Trabajemos Juntos</h4>
+          <p>¡Lista para nuevos desafíos! 😊</p>
+        </div>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
